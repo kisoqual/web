@@ -1,0 +1,12 @@
+html {
+    background-color: #101010; 
+    color: #FFFFFF; 
+    font-family: serif;
+}
+.title {
+    letter-spacing: 5px; 
+    font-size: 1.25em;
+}
+big {
+    overflow-wrap: anywhere;
+}
