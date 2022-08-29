@@ -1,0 +1,1 @@
+console.log("http://sobakun.gq/neurocom");
