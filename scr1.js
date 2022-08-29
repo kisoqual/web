@@ -1,2 +1,2 @@
 console.log("http://sobaht.ml/neurocom");
-console.log("IN DEVELOPMANT PROGRESS, PLEASE BE PATIENT");
+console.log("IN DEVELOPMENT PROGRESS, PLEASE BE PATIENT");
