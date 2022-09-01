@@ -3,7 +3,9 @@ html {
     color: #FFFFFF; 
     font-family: serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    min-height: 95vh;
 }
 .title {
     letter-spacing: 5px; 
