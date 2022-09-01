@@ -5,7 +5,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 95vh;
+    height: 95%;
 }
 .title {
     letter-spacing: 5px; 
