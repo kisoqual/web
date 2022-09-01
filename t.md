@@ -1,3 +1,8 @@
+---
+icon: https://raw.githubusercontent.com/kisoqual/sobaht.ml/main/assets/img/favicon.png
+title: 🦊📃⬇
+---
+
 # __haha hey there__
 look how it sansy looks
 
