@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  justify-content: center;  
+  height: 97.5%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center;
+  background-color: #101010;
+  align-items: center;
+}
