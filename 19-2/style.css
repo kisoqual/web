@@ -5,6 +5,7 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   text-align: center;
-  background-color: #101010;
+  background: #101010;
+  color: white;
   align-items: center;
 }
