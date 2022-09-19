@@ -1,7 +1,7 @@
 html {
     /*background-color: #101099;*/
     background-image: url("https://sobaht.ml/dfbadbffbdbdfdbsfsfbdsdfbg.png");
-    /*color: #FFFFFF;*/ 
+    color: blue; 
     font-family: serif;
     display: flex;
     flex-direction: column;
