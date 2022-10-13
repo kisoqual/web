@@ -1,1 +1,1 @@
-console.log("http://sobaht.ml/neurocom");
+console.log("https://sobaht.ml/neurocom");
