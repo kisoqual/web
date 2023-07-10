@@ -1,62 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="256.0px"
-   height="256.0px"
-   viewBox="0 0 256.0 256.0"
-   version="1.1"
-   id="SVGRoot"
-   sodipodi:docname="icon.svg"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview988"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="px"
-     showgrid="true"
-     inkscape:zoom="1.8101934"
-     inkscape:cx="138.38301"
-     inkscape:cy="124.29611"
-     inkscape:window-width="1920"
-     inkscape:window-height="1013"
-     inkscape:window-x="-9"
-     inkscape:window-y="29"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid1111" />
-  </sodipodi:namedview>
-  <defs
-     id="defs983" />
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       d="M 9.84603,0.05231152 C 4.41283,0.05231152 0,4.4584315 0,9.8990935 V 246.13861 c 0,5.43324 4.40611,9.84606 9.84603,9.84606 h 236.30792 c 5.44063,0 9.84605,-4.40612 9.84605,-9.84606 V 9.8990935 c 0,-5.440662 -4.40611,-9.84678198 -9.84605,-9.84678198 z M 236.30792,236.29185 H 19.69208 V 19.745132 h 216.61584 z"
-       id="path132"
-       style="stroke-width:19.6921;fill:#ffffff"
-       sodipodi:nodetypes="cssssssccccccc" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Layer 2">
-    <path
-       d="m 73.598647,101.1442 c -13.80761,0 -24.999771,-11.193091 -24.999771,-25.000676 0,-13.807611 11.192162,-24.999748 24.999771,-24.999748 13.80755,0 24.999747,11.192137 24.999747,24.999748 0,13.807585 -11.192196,25.000676 -24.999747,25.000676 z M 222.75194,205.48612 H 35.251817 l 37.499642,-75.00021 31.250161,62.50034 56.24999,-112.500789 z"
-       style="stroke-width:24.9997;fill:#ffffff"
-       id="path1160"
-       sodipodi:nodetypes="ssssscccccc" />
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/)
+    inkscape:version="1.2.2 (732a01da63, 2022-12-09)" 
+    svg:version="1.1" -->
+<svg id="SVGRoot" width="256px" height="256px" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+ <path d="m9.846 0.052312c-5.4332 0-9.846 4.4061-9.846 9.8468v236.24c0 5.4332 4.4061 9.8461 9.846 9.8461h236.31c5.4406 0 9.846-4.4061 9.846-9.8461v-236.24c0-5.4407-4.4061-9.8468-9.846-9.8468zm226.46 236.24h-216.62v-216.55h216.62z" fill="#fff" stroke-width="19.692"/>
+ <path d="m73.599 101.14c-13.808 0-25-11.193-25-25.001 0-13.808 11.192-25 25-25 13.808 0 25 11.192 25 25 0 13.808-11.192 25.001-25 25.001zm149.15 104.34h-187.5l37.5-75 31.25 62.5 56.25-112.5z" fill="#fff" stroke-width="25"/>
 </svg>
