@@ -1,5 +1,5 @@
 ---
-icon: https://raw.githubusercontent.com/kisoqual/sobaht.ml/main/assets/img/favicon.png
+icon: https://raw.githubusercontent.com/kisoqual/sobaht.ml/main/assets/img/favicon.svg
 title: 🦊📃⬇
 ---
 
