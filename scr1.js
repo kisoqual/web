@@ -1,1 +1,1 @@
-console.log("https://sobaht.ml/neurocom");
+console.log("https://so.bang.cl/neurocom");
