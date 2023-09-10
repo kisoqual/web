@@ -8,6 +8,9 @@ html {
     justify-content: center;
     height: 95%
 }
+:root {
+    --easeout1: 150ms ease-out
+}
 .txt1 {
     color: #cccccc;
     text-decoration-color: #cccccc;
@@ -16,19 +19,19 @@ html {
     transition: 150ms ease-out
 }
 .txt1:hover {
-    transition: 150ms ease-out;
+    transition: var(--easeout1);
     text-decoration-color: red
 }
 .point {
     color: #1976D2;
     background: white;
-    transition: 150ms ease-out
+    transition: var(--easeout1)
 }
 .point:hover {
     color: yellow;
     background: none;
     text-decoration: none;
-    transition: 150ms ease-out
+    transition: var(--easeout1)
 }
 .title {
     letter-spacing: 5px; 
