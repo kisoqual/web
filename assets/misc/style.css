@@ -12,7 +12,8 @@ html {
     color: #cccccc;
     text-decoration-color: #cccccc;
     text-decoration-line: underline;
-    text-decoration-style: dotted
+    text-decoration-style: dotted;
+    transition: 150ms ease-out
 }
 .txt1:hover {
     transition: 150ms ease-out;
