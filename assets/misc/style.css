@@ -6,12 +6,26 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 95%;
+    height: 95%
+}
+.txt1 {
+    color: #cccccc;
+    text-decoration-color: #cccccc;
+    text-decoration-line: underline;
+    text-decoration-style: dotted
+}
+.txt1:hover {
+    transition: text-decoration-color 0.25s;
+    text-decoration-color: red
+}
+.point {
+    color: #1976D2;
+    background: white
 }
 .title {
     letter-spacing: 5px; 
-    font-size: 1.25em;
+    font-size: 1.25em
 }
 big {
-    overflow-wrap: anywhere;
+    overflow-wrap: anywhere
 }
