@@ -21,7 +21,14 @@ html {
 }
 .point {
     color: #1976D2;
-    background: white
+    background: white;
+    transition: 150ms ease-out
+}
+.point:hover {
+    color: yellow;
+    background: none;
+    text-decoration: none;
+    transition: 150ms ease-out
 }
 .title {
     letter-spacing: 5px; 
