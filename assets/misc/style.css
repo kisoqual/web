@@ -9,14 +9,15 @@ html {
     height: 95%
 }
 :root {
-    --easeout1: 150ms ease-out
+    --easeout1: 150ms ease-out;
+    --grey1: #cccccc
 }
 .txt1 {
-    color: #cccccc;
-    text-decoration-color: #cccccc;
+    color: var(--grey1);
+    text-decoration-color: var(--grey1);
     text-decoration-line: underline;
     text-decoration-style: dotted;
-    transition: 150ms ease-out
+    transition: var(--easeout1)
 }
 .txt1:hover {
     transition: var(--easeout1);
