@@ -1,0 +1,22 @@
+html
+    {
+        background-color: #101010;
+        color: white;
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+body
+    {
+        text-align: center
+    }
+p   {
+        font-size: large;
+        font-weight: bold
+    }
+span
+    {
+        font-size: 256px
+    }
