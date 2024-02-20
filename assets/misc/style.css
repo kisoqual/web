@@ -11,6 +11,7 @@ html {
 :root {
     --easeout1: 150ms ease-out;
     --grey1: #cccccc
+    --easeout2: ease-out 25ms
 }
 .txt1 {
     color: var(--grey1);
@@ -24,7 +25,7 @@ html {
     text-decoration-color: red
 }
 .point {
-    color: #1976D2;
+    color: #00d0ff;
     background: white;
     transition: var(--easeout1)
 }
@@ -33,6 +34,12 @@ html {
     background: none;
     text-decoration: none;
     transition: var(--easeout1)
+}
+.point:focus {
+    color: #bc00ff;
+    background: white;
+    text-decoration: none;
+    transition: var(--easeout2)
 }
 .title {
     letter-spacing: 5px; 
