@@ -10,7 +10,7 @@ html {
 }
 :root {
     --easeout1: 150ms ease-out;
-    --grey1: #cccccc
+    --grey1: #cccccc;
     --easeout2: ease-out 25ms
 }
 .txt1 {
