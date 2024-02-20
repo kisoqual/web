@@ -26,7 +26,7 @@ html {
 }
 .point {
     color: #00d0ff;
-    background: white;
+    background: rgb(64, 64, 64);
     transition: var(--easeout1)
 }
 .point:hover {
