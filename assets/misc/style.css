@@ -48,3 +48,14 @@ html {
 big {
     overflow-wrap: anywhere
 }
+.b00bsty-ex {
+    color: var(--grey1);
+    text-decoration-color: var(--grey1);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    transition: var(--easeout1)
+}
+.b00bsty-ex:hover {
+    transition: var(--easeout1);
+    text-decoration-color: yellow
+}
