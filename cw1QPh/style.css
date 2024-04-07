@@ -1,13 +1,13 @@
 *{background:#101010}
 svg{
     background:white;
-    padding:1%;
+    padding:0.5%;
+    padding-bottom:0.45%;
     border-radius:6px;
-    transform:scale(500%)}
+    position:absolute;
+    transform:scale(500%)translateY(72.5%)}
 .shorten_list_qr_preview_container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 95%;
-    align-items: center;
-    margin-top:38%}
+    align-items: center}
