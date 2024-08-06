@@ -1,0 +1,26 @@
+User-agent: *
+Allow: index.html
+Disallow: /assets
+Disallow: /19-1
+Disallow: /19-2
+Disallow: /cock
+Disallow: /cw1QPh
+Disallow: /donate
+Disallow: /evo
+Disallow: /portfolio
+Disallow: /legacy
+Disallow: /neurocom
+Disallow: /ruthenia
+Disallow: /taksokotomysh
+Disallow: 3.md
+Disallow: 9.html
+Disallow: apatch.html
+Disallow: apatchw.html
+Disallow: jquery.slim.min.js
+Disallow: mmxxiv.js
+Disallow: README.md
+Disallow: scr1.js
+Disallow: t.md
+Disallow: yandex_7ae31dbe882b1e19.html
+
+# sitemap soon maybe
