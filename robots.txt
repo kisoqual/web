@@ -1,4 +1,4 @@
-User-agent: *
+User-agent: Googlebot
 Disallow: /assets
 Disallow: /19-1
 Disallow: /19-2
