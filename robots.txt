@@ -1,9 +1,5 @@
-User-agent: Googlebot
-User-agent: Yahoobot
-User-agent: Microsoftbot
-User-agent: Yandexbot
 User-agent: *
-Allow: /index.html
+Allow: /
 Disallow: /assets
 Disallow: /19-1
 Disallow: /19-2
@@ -16,15 +12,15 @@ Disallow: /legacy
 Disallow: /neurocom
 Disallow: /ruthenia
 Disallow: /taksokotomysh
-Disallow: 3.md
-Disallow: 9.html
-Disallow: apatch.html
-Disallow: apatchw.html
-Disallow: jquery.slim.min.js
-Disallow: mmxxiv.js
-Disallow: README.md
-Disallow: scr1.js
-Disallow: t.md
-Disallow: yandex_7ae31dbe882b1e19.html
+Disallow: /3.md
+Disallow: /9.html
+Disallow: /apatch.html
+Disallow: /apatchw.html
+Disallow: /jquery.slim.min.js
+Disallow: /mmxxiv.js
+Disallow: /README.md
+Disallow: /scr1.js
+Disallow: /t.md
+Disallow: /yandex_7ae31dbe882b1e19.html
 
 # sitemap soon maybe
