@@ -1,5 +1,4 @@
 User-agent: *
-Allow: index.html
 Disallow: /assets
 Disallow: /19-1
 Disallow: /19-2
