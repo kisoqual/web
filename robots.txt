@@ -1,4 +1,8 @@
 User-agent: Googlebot
+User-agent: Yahoobot
+User-agent: Microsoftbot
+User-agent: Yandexbot
+User-agent: *
 Disallow: /assets
 Disallow: /19-1
 Disallow: /19-2
