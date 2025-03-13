@@ -13,17 +13,6 @@ html {
     --grey1: #cccccc;
     --easeout2: ease-out 25ms
 }
-.txt1 {
-    color: var(--grey1);
-    text-decoration-color: var(--grey1);
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-    transition: var(--easeout1)
-}
-.txt1:hover {
-    transition: var(--easeout1);
-    text-decoration-color: red
-}
 .point {
     color: #00d0ff;
     background: rgb(64, 64, 64);
@@ -59,3 +48,14 @@ big {
     transition: var(--easeout1);
     text-decoration-color: yellow
 }
+/*.txt1 {
+    color: var(--grey1);
+    text-decoration-color: var(--grey1);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    transition: var(--easeout1)
+}
+.txt1:hover {
+    transition: var(--easeout1);
+    text-decoration-color: red
+}*/
