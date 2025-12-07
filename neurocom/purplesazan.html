@@ -1,8 +1,14 @@
 <!doctype html>
 <html>
   <body>
-    <a href="data:text/html;base64,aHR0cHM6Ly9kaXNrLnlhbmRleC5ydS9pL1lTeVN4TkZzNnFwRmpB">
+    <button onclick="
+      function _exec(params) {
+          navigator.clipboard.writeText(params)
+              alert('text is copied')
+          }
+      _exec('data:text/html;base64,aHR0cHM6Ly9kaXNrLnlhbmRleC5ydS9pL1lTeVN4TkZzNnFwRmpB')
+      ">
       Bw==
-    </a>
+    </button>
   </body>
 </html>
