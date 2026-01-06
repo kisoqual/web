@@ -37,7 +37,10 @@ a[title]:focus:after {
     box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.4);
     font-size: 14px;
     padding: 3px 5px;
-    transition: var(--easeout2)
+    z-index: 1;
+    /* it didn't work for now 
+    maybe ill try it figuring out later
+    transition: var(--easeout2)*/
 }
 
 .txt1 {
