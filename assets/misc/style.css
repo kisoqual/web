@@ -1,6 +1,6 @@
 html {
     background-color: #101010;
-    /*background-image: url("https://so.bang.cl/dfbadbffbdbdfdbsfsfbdsdfbg.png");*/ 
+    /*background-image: url("https://so.bang.cl/dfbadbffbdbdfdbsfsfbdsdfbg.png");*/
     color: white;
     font-family: serif;
     display: flex;
@@ -8,11 +8,34 @@ html {
     justify-content: center;
     height: 95%
 }
+
 :root {
     --easeout1: 150ms ease-out;
     --grey1: #cccccc;
     --easeout2: ease-out 25ms
 }
+
+a[title] {
+    position: relative;
+}
+
+a[title]:hover:after,
+a[title]:focus:after {
+    content: attr(title);
+    font-family: sans;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: auto;
+    white-space: nowrap;
+    background-color: #1e1e1e;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    padding: 3px 5px;
+}
+
 .txt1 {
     color: var(--grey1);
     text-decoration-color: var(--grey1);
@@ -20,34 +43,41 @@ html {
     text-decoration-style: dotted;
     transition: var(--easeout1)
 }
+
 .txt1:hover {
     transition: var(--easeout1);
     text-decoration-color: red
 }
+
 .point {
     color: #00d0ff;
     background: rgb(64, 64, 64);
     transition: var(--easeout1)
 }
+
 .point:hover {
     color: yellow;
     background: none;
     text-decoration: none;
     transition: var(--easeout1)
 }
+
 .point:focus {
     color: #bc00ff;
     background: white;
     text-decoration: none;
     transition: var(--easeout2)
 }
+
 .title {
-    letter-spacing: 5px; 
+    letter-spacing: 5px;
     font-size: 1.25em
 }
+
 big {
     overflow-wrap: anywhere
 }
+
 .b00bsty-ex {
     color: var(--grey1);
     text-decoration-color: var(--grey1);
@@ -55,6 +85,7 @@ big {
     text-decoration-style: dotted;
     transition: var(--easeout1)
 }
+
 .b00bsty-ex:hover {
     transition: var(--easeout1);
     text-decoration-color: yellow
