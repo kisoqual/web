@@ -15,10 +15,13 @@ html {
     --easeout2: ease-out 25ms
 }
 
-a[title] {
+a[title],
+label.r1[title] {
     position: relative;
 }
 
+label.r1[title]:hover:after,
+label.r1[title]:focus:after,
 a[title]:hover:after,
 a[title]:focus:after {
     content: attr(title);
