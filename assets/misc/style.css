@@ -16,16 +16,16 @@ html {
 }
 
 a[title],
-label.r1[title] {
+.r1[title] {
     position: relative;
 }
 
-label.r1[title]:hover:after,
-label.r1[title]:focus:after,
+.r1[title]:hover:after,
+.r1[title]:focus:after,
 a[title]:hover:after,
 a[title]:focus:after {
     content: attr(title);
-    font-family: sans;
+    font-family: monospace;
     position: absolute;
     left: 0;
     bottom: -30px;
