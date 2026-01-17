@@ -98,4 +98,8 @@ big {
     text-decoration-color: yellow
 }
 
+.mhint {
+    color: lightgray;
+}
+
 /* probably bootstrap or tailwind s00n */
