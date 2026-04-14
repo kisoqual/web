@@ -10,6 +10,7 @@ yrClick.addEventListener('click', () => {
     }
 })
 
+// thats a jquery one
 /*
 $('.r1').click(function () {
     if (!$(this).data('status')) {
