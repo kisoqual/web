@@ -1,3 +1,16 @@
+const yrClick = document.querySelector('.r1');
+
+yrClick.addEventListener('click', () => {
+    if (yrClick.value === true) {
+        yrClick.innerHTML = '<b><i>MMX-MMXXVI</i></b>';
+        yrClick.value = false
+    } else {
+        yrClick.innerHTML = '<b><i>2010-2026</i></b>';
+        yrClick.value = true
+    }
+})
+
+/*
 $('.r1').click(function () {
     if (!$(this).data('status')) {
         $(this).html('<b><i>2010-2026</i></b>');
@@ -8,3 +21,4 @@ $('.r1').click(function () {
         $(this).data('status', false);
     }
 });
+*/
