@@ -1,9 +1,7 @@
 const aptBtn = document.querySelector('#accept')
-aptBtn.addEventListener('click', (
-    vl = `data:text/html;
-        base64,aHR0cHM6Ly9kaXNrLnlhbmRleC5ydS9pL1lTeVN4TkZzNnFwRmpB`
-    ) => {
-    navigator.clipboard.writeText(vl)
+aptBtn.addEventListener('click', () => {
+    navigator.clipboard.writeText(`data:text/html;
+        base64,aHR0cHM6Ly9kaXNrLnlhbmRleC5ydS9pL1lTeVN4TkZzNnFwRmpB`)
     const dInf = document.createElement('dialog')
     const clBtn = document.querySelector('.clsBtn')
     dInf.className = 'dinf'
