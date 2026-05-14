@@ -154,6 +154,14 @@ li:hover {
 .yt:hover {
   color: #f00;
 }
+.bdInf {
+  border: none;
+  border-radius: 2px;
+  animation: diagpop 3s forwards;
+}
+.bdInf::backdrop {
+  backdrop-filter: blur(4px);
+}
 @-moz-keyframes flagpop {
   0% {
     top: -16px;
@@ -202,6 +210,70 @@ li:hover {
   }
   10% {
     top: 8px;
+  }
+  95% {
+    top: 8px;
+  }
+  100% {
+    top: -24px;
+  }
+}
+@-moz-keyframes diagpop {
+  0% {
+    top: -16px;
+    opacity: 0;
+  }
+  10% {
+    top: 8px;
+    opacity: 1;
+  }
+  95% {
+    top: 8px;
+  }
+  100% {
+    top: -24px;
+  }
+}
+@-webkit-keyframes diagpop {
+  0% {
+    top: -16px;
+    opacity: 0;
+  }
+  10% {
+    top: 8px;
+    opacity: 1;
+  }
+  95% {
+    top: 8px;
+  }
+  100% {
+    top: -24px;
+  }
+}
+@-o-keyframes diagpop {
+  0% {
+    top: -16px;
+    opacity: 0;
+  }
+  10% {
+    top: 8px;
+    opacity: 1;
+  }
+  95% {
+    top: 8px;
+  }
+  100% {
+    top: -24px;
+  }
+}
+@keyframes diagpop {
+  0% {
+    top: -16px;
+    opacity: 0;
+  }
+  10% {
+    top: 8px;
+    opacity: 1;
   }
   95% {
     top: 8px;

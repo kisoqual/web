@@ -1,6 +1,7 @@
 easeout1 = 150ms ease-out
 grey1 = #cccccc
 easeout2 = ease-out 25ms
+easeinout = ease-in-out 192ms
 
 elColors(bg, fg)
     background: bg
@@ -145,3 +146,24 @@ a
 
 .yt:hover
     color: red
+
+.bdInf
+    border: none
+    border-radius: 2px
+    animation: diagpop 3s forwards
+
+@keyframes diagpop {
+    0% { 
+        top: -16px;
+        opacity: 0;
+    }
+    10% { 
+        top: 8px;
+        opacity: 1;
+    }
+    95% { top: 8px }
+    100% { top: -24px }
+}
+
+.bdInf::backdrop
+    backdrop-filter: blur(4px)
