@@ -1,4 +1,7 @@
+"use strict";
+
 // there's a script initiation
+
 /*
 (() => {
     var script = document.createElement('script');
@@ -11,17 +14,15 @@
     } 
 })();
 */
-
 console.log("for adding script like jquery, you need insert script from scr1.js and paste n launch to console");
 console.log("https://so.bang.cl/neurocom");
-
-const txt1Ev = document.querySelector('.txt1')
-txt1Ev.addEventListener('click', () => {
-    const flag = document.createElement('div')
-    flag.className = 'warnflag'
-    flag.innerHTML = `<span>
-            unavalible
-        </span>`
-    document.body.append(flag)
-    setTimeout(() => { flag.remove() }, 4096)
-})
+var txt1Ev = document.querySelector('.txt1');
+txt1Ev.addEventListener('click', function () {
+  var flag = document.createElement('div');
+  flag.className = 'warnflag';
+  flag.innerHTML = "<span>\n            unavalible\n        </span>";
+  document.body.append(flag);
+  setTimeout(function () {
+    flag.remove();
+  }, 4096);
+});

@@ -1,0 +1,147 @@
+easeout1 = 150ms ease-out
+grey1 = #cccccc
+easeout2 = ease-out 25ms
+
+elColors(bg, fg)
+    background: bg
+    color: fg
+
+html 
+    elColors(#101010, white)
+    //background: url("https://so.bang.cl/dfbadbffbdbdfdbsfsfbdsdfbg.png"
+    font-family: serif
+    display: flex
+    flex-direction: column
+    justify-content: center
+    height: 95%
+
+a[title], .r1[title] 
+    position: relative
+
+.r1[title]:hover:after,
+a[title]:hover:after,
+.r1[title]:focus:after,
+a[title]:focus:after,
+.r1[title]:focus-within:after,
+a[title]:focus-within:after
+    content: attr(title)
+    font-family: monospace
+    position: absolute
+    left: 0
+    bottom: -30px
+    width: auto
+    white-space: nowrap
+    elColors(#1e1e1e, #fff)
+    border-radius: 3px
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.4)
+    font-size: 14px
+    padding: 3px 5px
+    z-index: 1
+    //animation later
+
+.warnflag
+    font-family: monospace
+    position: fixed
+    display: flex
+    justify-content: center
+    left: 50%
+    transform: translateX(-50%)
+    width: auto
+    white-space: nowrap
+    elColors(red, #fff)
+    border-radius: 3px
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.4)
+    font-size: 14px
+    padding: 3px 5px
+    z-index: 100
+    animation: flagpop 4s forwards
+
+@keyframes flagpop {
+    0% { top: -16px }
+    10% { top: 8px }
+    95% { top: 8px }
+    100% { top: -24px }
+}
+
+.txt1 
+    color: grey1
+    text-decoration: grey1 underline dotted
+    transition: easeout1
+    &:hover 
+        transition: easeout1
+        text-decoration-color: red
+
+.point 
+    elColors(#404040, #00d0ff)
+    transition: easeout1
+    &:hover 
+        elColors(none, yellow)
+        text-decoration: none
+        transition: easeout1
+    &:focus 
+        elColors(white, #bc00ff)
+        text-decoration: none
+        transition: easeout2
+
+.title 
+    letter-spacing: 5px
+    font-size: 1.25em
+
+.links
+    font-size: large
+    overflow-wrap: anywhere
+
+.b00bsty-ex 
+    color: grey1
+    text-decoration: grey1 underline dotted
+    transition: easeout1
+    &:hover 
+        transition: easeout1
+        text-decoration-color: yellow
+
+.mhint 
+    color: lightgray
+
+a
+    color: lightgray
+    transition: easeout1
+
+.tg:hover
+    color: #26a5e5
+
+.tt:hover 
+  color: purple
+
+.tw:hover
+    color: #ae00ff
+
+.fl:hover, .ig:hover, .it:hover
+    color: #dd00ae
+
+.vk:hover, .mx:hover, .fb:hover, .lj:hover, .cb:hover 
+  color: blue
+
+.gg:hover
+    color: #6a6acd
+
+.sc:hover, .bl:hover 
+  color: orange
+
+.bc:hover, .li:hover 
+  color: teal
+
+.xt:hover, .sk:hover 
+  color: lightblue
+
+.gt:hover, .cp:hover, .pr:hover, .ml:hover, li:hover
+  color: white
+
+.gj:hover, .da:hover
+  color: yellow
+
+.gf:hover 
+  background: lightgray
+  color: black
+
+.yt:hover
+    color: red

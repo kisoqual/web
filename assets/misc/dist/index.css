@@ -1,0 +1,212 @@
+html {
+  background: #101010;
+  color: #fff;
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 95%;
+}
+a[title],
+.r1[title] {
+  position: relative;
+}
+.r1[title]:hover:after,
+a[title]:hover:after,
+.r1[title]:focus:after,
+a[title]:focus:after,
+.r1[title]:focus-within:after,
+a[title]:focus-within:after {
+  content: attr(title);
+  font-family: monospace;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: auto;
+  white-space: nowrap;
+  background: #1e1e1e;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.4);
+  font-size: 14px;
+  padding: 3px 5px;
+  z-index: 1;
+}
+.warnflag {
+  font-family: monospace;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  white-space: nowrap;
+  background: #f00;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.4);
+  font-size: 14px;
+  padding: 3px 5px;
+  z-index: 100;
+  animation: flagpop 4s forwards;
+}
+.txt1 {
+  color: #ccc;
+  text-decoration: #ccc underline dotted;
+  transition: 150ms ease-out;
+}
+.txt1:hover {
+  transition: 150ms ease-out;
+  text-decoration-color: #f00;
+}
+.point {
+  background: #404040;
+  color: #00d0ff;
+  transition: 150ms ease-out;
+}
+.point:hover {
+  background: none;
+  color: #ff0;
+  text-decoration: none;
+  transition: 150ms ease-out;
+}
+.point:focus {
+  background: #fff;
+  color: #bc00ff;
+  text-decoration: none;
+  transition: ease-out 25ms;
+}
+.title {
+  letter-spacing: 5px;
+  font-size: 1.25em;
+}
+.links {
+  font-size: large;
+  overflow-wrap: anywhere;
+}
+.b00bsty-ex {
+  color: #ccc;
+  text-decoration: #ccc underline dotted;
+  transition: 150ms ease-out;
+}
+.b00bsty-ex:hover {
+  transition: 150ms ease-out;
+  text-decoration-color: #ff0;
+}
+.mhint {
+  color: #d3d3d3;
+}
+a {
+  color: #d3d3d3;
+  transition: 150ms ease-out;
+}
+.tg:hover {
+  color: #26a5e5;
+}
+.tt:hover {
+  color: #800080;
+}
+.tw:hover {
+  color: #ae00ff;
+}
+.fl:hover,
+.ig:hover,
+.it:hover {
+  color: #dd00ae;
+}
+.vk:hover,
+.mx:hover,
+.fb:hover,
+.lj:hover,
+.cb:hover {
+  color: #00f;
+}
+.gg:hover {
+  color: #6a6acd;
+}
+.sc:hover,
+.bl:hover {
+  color: #ffa500;
+}
+.bc:hover,
+.li:hover {
+  color: #008080;
+}
+.xt:hover,
+.sk:hover {
+  color: #add8e6;
+}
+.gt:hover,
+.cp:hover,
+.pr:hover,
+.ml:hover,
+li:hover {
+  color: #fff;
+}
+.gj:hover,
+.da:hover {
+  color: #ff0;
+}
+.gf:hover {
+  background: #d3d3d3;
+  color: #000;
+}
+.yt:hover {
+  color: #f00;
+}
+@-moz-keyframes flagpop {
+  0% {
+    top: -16px;
+  }
+  10% {
+    top: 8px;
+  }
+  95% {
+    top: 8px;
+  }
+  100% {
+    top: -24px;
+  }
+}
+@-webkit-keyframes flagpop {
+  0% {
+    top: -16px;
+  }
+  10% {
+    top: 8px;
+  }
+  95% {
+    top: 8px;
+  }
+  100% {
+    top: -24px;
+  }
+}
+@-o-keyframes flagpop {
+  0% {
+    top: -16px;
+  }
+  10% {
+    top: 8px;
+  }
+  95% {
+    top: 8px;
+  }
+  100% {
+    top: -24px;
+  }
+}
+@keyframes flagpop {
+  0% {
+    top: -16px;
+  }
+  10% {
+    top: 8px;
+  }
+  95% {
+    top: 8px;
+  }
+  100% {
+    top: -24px;
+  }
+}
