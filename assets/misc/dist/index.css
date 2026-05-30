@@ -58,6 +58,7 @@ a[title]:focus-within:after {
 .txt1:hover {
   transition: 150ms ease-out;
   text-decoration-color: #f00;
+  cursor: pointer;
 }
 .point {
   background: #404040;
@@ -92,6 +93,7 @@ a[title]:focus-within:after {
 .b00bsty-ex:hover {
   transition: 150ms ease-out;
   text-decoration-color: #ff0;
+  cursor: pointer;
 }
 .mhint {
   color: #d3d3d3;
