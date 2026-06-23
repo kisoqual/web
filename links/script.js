@@ -16,7 +16,7 @@ const dInf = document.createElement('dialog')
     dInf.className = 'bdInf'
     dInf.innerHTML = `<h2>no tiers available</h2>
         <button class=clsBtn
-            onclick=document.querySelector(\'.bdInf\').close();window.location&nbsp;=&nbsp;'cw1QPh';>
+            onclick=document.querySelector(\'.bdInf\').close();window.location&nbsp;=&nbsp;'../cw1QPh';>
             close
         </button>`
     document.body.append(dInf)
