@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+h1 {
+    font-family: 'Michroma', sans-serif;
+    color: #fff;
+    margin: .5em;
+}
 body {
     background: #101010;
     color: #fff;
@@ -38,27 +44,21 @@ a {
     color: #fff;
     padding: 0.5em;
     transition: ease-out 192ms;
+    
 }
 .active a, a:hover {
     color: #000;
     background: #fff;
-    border-bottom: 1px solid #000;
     padding: 0.5em;
     transition: ease-in 192ms;
 }
-ul li {
-    width: 30%;
-}
 .select {
     width: 640px;
-    height: 512px;
+    height: 480px;
 }
 li {
     margin: 0px;
-}
-h1 {
-    text-align: center;
-    font-family: serif;
+    border: #fff 1px solid;
 }
 #myTab, .tab-content {
     display: flex;

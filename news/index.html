@@ -14,72 +14,74 @@
 	</head>
 	<body>
 		<h1>NEWS</h1>
-		<ul class="nav nav-tabs" style="background:#101010;" id="myTab">
-			<li class="active" onclick="$('#myTab li:eq(0) a').tab('show')">
-				<a href="#vk">VK</a>
-			</li>
-			<li onclick="$('#myTab li:eq(1) a').tab('show')">
-				<a href="#telegram">
-					Telegram
-				</a>
-			</li>
-			<li onclick="$('#myTab li:eq(2) a').tab('show')">
-				<a href="#twitter">
-					Twitter
-				</a>
-			</li>
-			<li onclick="$('#myTab li:eq(3) a').tab('show')">
-				<a href="#blogger">
-					Blogger
-				</a>
-			</li>
-			<li onclick="$('#myTab li:eq(4) a').tab('show')">
-				<a href="#burbn" title="*Meta is an extremist organization in the Russian Federation">
-					Burbn*
-				</a>
-			</li>
-			<li onclick="$('#myTab li:eq(5) a').tab('show')">
-				<a href="#other">
-					Other
-				</a>
-			</li>
-		</ul>
+		<div class="ctr">
+			<ul class="nav" style="background:#101010;" id="myTab">
+				<li class="active" onclick="$('#myTab li:eq(0) a').tab('show')">
+					<a href="#vk">VK</a>
+				</li>
+				<li onclick="$('#myTab li:eq(1) a').tab('show')">
+					<a href="#telegram">
+						Telegram
+					</a>
+				</li>
+				<li onclick="$('#myTab li:eq(2) a').tab('show')">
+					<a href="#twitter">
+						Twitter
+					</a>
+				</li>
+				<li onclick="$('#myTab li:eq(3) a').tab('show')">
+					<a href="#blogger">
+						Blogger
+					</a>
+				</li>
+				<li onclick="$('#myTab li:eq(4) a').tab('show')">
+					<a href="#burbn" title="*Meta is an extremist organization in the Russian Federation">
+						Burbn*
+					</a>
+				</li>
+				<li onclick="$('#myTab li:eq(5) a').tab('show')">
+					<a href="#other">
+						Other
+					</a>
+				</li>
+			</ul>
+		</div>
 			
-		<div class="tab-content">
-			<div class="tab-pane active" id="vk">
-				<div id="vk_groups"></div>
-				<script type="text/javascript">
-				VK.Widgets.Group("vk_groups", {
-					mode: 4, wide: 1, height: 512, width: 360,
-					color1: "FFFFFF", color2: "000000", color3: "5181B8"}, 168875590);
-				</script>
-			</div>
-			<div class="tab-pane" id="telegram">
-				<iframe src="https://widgets.sociablekit.com/telegram-channel/iframe/25705306" frameborder="0" width="360px" height="512px"></iframe>
-			</div>
-			<div class="tab-pane" id="twitter">
-				<iframe src="https://widgets.sociablekit.com/twitter-feed/iframe/25705308" frameborder="0" width="360px" height="512px"></iframe>
-			</div>
-			<div class="tab-pane" id="blogger">
-				<iframe src="https://sobacore.blogspot.com" style="width: 360px; height: 512px; border: none;"></iframe>
-			</div>
-			<div class="tab-pane" id="burbn">
-				<iframe src="https://widgets.commoninja.com/iframe/04f36b9a-a69a-43e8-b649-20270968da6c" width="360px" height="512px" frameborder="0"></iframe>
-			</div>
-			<div class="tab-pane" id="other">
-				<div class="select" width="360px" height="512px">
-					<a class="tg" href="https://t.me/s/kisoqual">telegram</a>
-					<a class="tt" href="https://max.ru/join/plj4a2F03ABZ9xtKE6cRzXkLeDAmYWBsZP5N1TC7qC0"
-					title="aka TamTam Definitive Edition, invite only">tamtam+</a>
-					<a class="tt" href="https://tt.me/kisoqual" title="TamTam Legacy (Defunct, Read-Only)">tamtam</a>
-					<a class="vk" href="https://vk.com/im/channels/-231361159" title="authorized only">vk 2nd</a>
-					<a href="https://fb.com/kisoqual" class="fb"
-					title="*Meta is an extremist organization in the Russian Federation">facebook*</a>
-					<a class="lj" href="https://rpe4q.livejournal.com">livejournal</a>
-					<a class="li" href="https://liveinternet.ru/users/4379025">liveinternet</a>
+			<div class="tab-content">
+				<div class="tab-pane active" id="vk">
+					<div id="vk_groups"></div>
+					<script type="text/javascript">
+					VK.Widgets.Group("vk_groups", {
+						mode: 4, wide: 1, height: 512, width: 360,
+						color1: "FFFFFF", color2: "000000", color3: "5181B8"}, 168875590);
+					</script>
+				</div>
+				<div class="tab-pane" id="telegram">
+					<iframe src="https://widgets.sociablekit.com/telegram-channel/iframe/25705306" frameborder="0" width="360px" height="512px"></iframe>
+				</div>
+				<div class="tab-pane" id="twitter">
+					<iframe src="https://widgets.sociablekit.com/twitter-feed/iframe/25705308" frameborder="0" width="360px" height="512px"></iframe>
+				</div>
+				<div class="tab-pane" id="blogger">
+					<iframe src="https://sobacore.blogspot.com" style="width: 360px; height: 512px; border: none;"></iframe>
+				</div>
+				<div class="tab-pane" id="burbn">
+					<iframe src="https://widgets.commoninja.com/iframe/04f36b9a-a69a-43e8-b649-20270968da6c" width="360px" height="512px" frameborder="0"></iframe>
+				</div>
+				<div class="tab-pane" id="other">
+					<div class="select" width="360px" height="512px">
+						<a class="tg" href="https://t.me/s/kisoqual">telegram</a>
+						<a class="tt" href="https://max.ru/join/plj4a2F03ABZ9xtKE6cRzXkLeDAmYWBsZP5N1TC7qC0"
+						title="aka TamTam Definitive Edition, invite only">tamtam+</a>
+						<a class="tt" href="https://tt.me/kisoqual" title="TamTam Legacy (Defunct, Read-Only)">tamtam</a>
+						<a class="vk" href="https://vk.com/im/channels/-231361159" title="authorized only">vk 2nd</a>
+						<a href="https://fb.com/kisoqual" class="fb"
+						title="*Meta is an extremist organization in the Russian Federation">facebook*</a>
+						<a class="lj" href="https://rpe4q.livejournal.com">livejournal</a>
+						<a class="li" href="https://liveinternet.ru/users/4379025">liveinternet</a>
+					</div>
 				</div>
 			</div>
-		</div>
 		<script src="https://bootstrap-4.ru/docs/2.3.2/assets/js/jquery.js"></script>
 		<script src="https://bootstrap-4.ru/docs/2.3.2/assets/js/bootstrap-tab.js"></script>
 		<script src="https://bootstrap-4.ru/docs/2.3.2/assets/js/bootstrap-tooltip.js"></script>
