@@ -1,0 +1,61 @@
+body {
+    background: #101010;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a[title] {
+  position: relative;
+}
+a[title]:hover:after,
+a[title]:focus:after,
+a[title]:focus-within:after {
+  content: attr(title);
+  font-family: monospace;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: auto;
+  white-space: nowrap;
+  background: #1e1e1e;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.4);
+  font-size: 14px;
+  padding: 3px 5px;
+  z-index: 1;
+}
+a {
+    font-family: monospace;
+    color: #fff;
+    padding: 0.5em;
+    transition: ease-out 192ms;
+}
+.active a, a:hover {
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid #000;
+    padding: 0.5em;
+    transition: ease-in 192ms;
+}
+li {
+    margin: 0 1em;
+}
+h1 {
+    text-align: center;
+    font-family: serif;
+}
+#myTab, .tab-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
