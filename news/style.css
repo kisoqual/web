@@ -46,6 +46,13 @@ a {
     padding: 0.5em;
     transition: ease-in 192ms;
 }
+ul li {
+    width: 30%;
+}
+.select {
+    width: 640px;
+    height: 512px;
+}
 li {
     margin: 0 1em;
 }
